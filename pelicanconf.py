@@ -15,6 +15,7 @@ FEED_DOMAIN = 'http://www.marukohome.com'
 # Blogroll
 LINKS =  (('Zhihu', 'http://www.zhihu.com/'),
           ('Fenng', 'http://dbanotes.net/'),
+          ('Gotgit', 'http://www.worldhello.net/'),
           ('JobsDigg.com', 'https://jobsdigg.com/'),
           ('Hacker News', 'http://news.ycombinator.com/'),
           ('Startup News', 'http://news.dbanotes.net/news'),
