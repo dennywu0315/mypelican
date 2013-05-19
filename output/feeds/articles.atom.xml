@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/articles.atom.xml" rel="self"></link><id>/</id><updated>2013-03-06T16:21:00Z</updated><entry><title>Markdown test</title><link href="/markdown-test.html" rel="alternate"></link><updated>2013-03-06T16:21:00Z</updated><author><name>DennyW</name></author><id>tag:,2013-03-06:markdown-test.html</id><summary type="html">&lt;h1&gt;This is a Markdown test.&lt;/h1&gt;
+&lt;h4&gt;by &lt;a href="http://www.marukohome.com"&gt;DennyW&lt;/a&gt;&lt;/h4&gt;
+&lt;hr /&gt;
+&lt;h1&gt;This is H1&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2&gt;This is H2&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3&gt;This is H3&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Test the block quote:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a block quote with two paragraphs.This is a block quote with two paragraphs.This is a block quote with two paragraphs.This is a block quote with two paragraphs.This is a block quote with two paragraphs.This is a block quote with two paragraphs.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is nested blockquote.This is nested blockquote.This is nested blockquote.This is nested blockquote.This is nested blockquote.This is nested blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Test the list:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;First&lt;/li&gt;
+&lt;li&gt;Second&lt;/li&gt;
+&lt;li&gt;Third&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Test code block:&lt;/h3&gt;
+&lt;p&gt;This is an example of Perl script:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="k"&gt;foreach&lt;/span&gt; &lt;span class="nv"&gt;@array&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;my&lt;/span&gt; &lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;$_&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+        &lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="nv"&gt;$def&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+&lt;h3&gt;Test links:&lt;/h3&gt;
+&lt;p&gt;This is &lt;a href="http://www.marukohome.com"&gt;an example&lt;/a&gt; inline link.&lt;/p&gt;
+&lt;p&gt;This is &lt;a href="http://www.marukohome.com" title="title here"&gt;an example&lt;/a&gt; reference-style link.&lt;/p&gt;
+&lt;p&gt;I get 10 times more traffic from &lt;a href="http://google.com/" title="Google"&gt;Google&lt;/a&gt; than from
+&lt;a href="http://search.yahoo.com/" title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/" title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Test the emphasize:&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Test string&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Test string&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test string&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test string&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;&lt;/h3&gt;
+&lt;h3&gt;Test the inline code block:&lt;/h3&gt;
+&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Test the automatic link transfer:&lt;/h3&gt;
+&lt;p&gt;Website: &lt;a href="http://marukohome.com"&gt;http://marukohome.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mail:&lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#97;&amp;#98;&amp;#99;&amp;#100;&amp;#101;&amp;#102;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#97;&amp;#98;&amp;#99;&amp;#100;&amp;#101;&amp;#102;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Test Picture:&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt Test" src="http://th00.deviantart.net/fs70/150/i/2011/178/a/f/octocat_by_rstovall-d3k6a7n.jpg" /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Done!&lt;/h1&gt;
+&lt;h3&gt;Below is the code:&lt;/h3&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="c1"&gt;#This is a Markdown test. &lt;/span&gt;
+&lt;span class="c1"&gt;####by [DennyW](http://www.marukohome.com)&lt;/span&gt;
+
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="c1"&gt;#This is H1&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="c1"&gt;##This is H2&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="c1"&gt;###This is H3&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="c1"&gt;###Test the block quote:&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;block&lt;/span&gt; &lt;span class="n"&gt;quote&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;two&lt;/span&gt; &lt;span class="n"&gt;paragraphs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;block&lt;/span&gt; &lt;span class="n"&gt;quote&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;two&lt;/span&gt; &lt;span class="n"&gt;paragraphs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;block&lt;/span&gt; &lt;span class="n"&gt;quote&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;two&lt;/span&gt; &lt;span class="n"&gt;paragraphs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;block&lt;/span&gt; &lt;span class="n"&gt;quote&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;two&lt;/span&gt; &lt;span class="n"&gt;paragraphs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;block&lt;/span&gt; &lt;span class="n"&gt;quote&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;two&lt;/span&gt; &lt;span class="n"&gt;paragraphs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;block&lt;/span&gt; &lt;span class="n"&gt;quote&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;two&lt;/span&gt; &lt;span class="n"&gt;paragraphs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;nested&lt;/span&gt; &lt;span class="n"&gt;blockquote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;nested&lt;/span&gt; &lt;span class="n"&gt;blockquote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;nested&lt;/span&gt; &lt;span class="n"&gt;blockquote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;nested&lt;/span&gt; &lt;span class="n"&gt;blockquote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;nested&lt;/span&gt; &lt;span class="n"&gt;blockquote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;nested&lt;/span&gt; &lt;span class="n"&gt;blockquote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+
+&lt;span class="o"&gt;***&lt;/span&gt;
+
+&lt;span class="c1"&gt;###Test the list:&lt;/span&gt;
+&lt;span class="o"&gt;*&lt;/span&gt;   &lt;span class="n"&gt;Red&lt;/span&gt;
+&lt;span class="o"&gt;*&lt;/span&gt;   &lt;span class="n"&gt;Green&lt;/span&gt;
+&lt;span class="o"&gt;*&lt;/span&gt;   &lt;span class="n"&gt;Blue&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  &lt;span class="n"&gt;Second&lt;/span&gt;
+&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Third&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="c1"&gt;###Test code block:&lt;/span&gt;
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;an&lt;/span&gt; &lt;span class="n"&gt;example&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;Perl&lt;/span&gt; &lt;span class="n"&gt;script:&lt;/span&gt;
+
+    &lt;span class="k"&gt;foreach&lt;/span&gt; &lt;span class="nv"&gt;@array&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="k"&gt;my&lt;/span&gt; &lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;$_&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+            &lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="nv"&gt;$def&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="nv"&gt;$def&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;span class="c1"&gt;###Test links:&lt;/span&gt;
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;an&lt;/span&gt; &lt;span class="n"&gt;example&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="n"&gt;http:&lt;/span&gt;&lt;span class="sr"&gt;//&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;marukohome&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;inline&lt;/span&gt; &lt;span class="nb"&gt;link&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;an&lt;/span&gt; &lt;span class="n"&gt;example&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="n"&gt;reference&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;style&lt;/span&gt; &lt;span class="nb"&gt;link&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;http:&lt;/span&gt;&lt;span class="sr"&gt;//&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;marukohome&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;title here&amp;quot;&lt;/span&gt;
+
+&lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="nb"&gt;times&lt;/span&gt; &lt;span class="n"&gt;more&lt;/span&gt; &lt;span class="n"&gt;traffic&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Google&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="n"&gt;than&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Yahoo&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;MSN&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;http:&lt;/span&gt;&lt;span class="sr"&gt;//goog&lt;/span&gt;&lt;span class="ow"&gt;le&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Google&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;http:&lt;/span&gt;&lt;span class="sr"&gt;//s&lt;/span&gt;&lt;span class="n"&gt;earch&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;yahoo&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;  &lt;span class="s"&gt;&amp;quot;Yahoo Search&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;http:&lt;/span&gt;&lt;span class="sr"&gt;//s&lt;/span&gt;&lt;span class="n"&gt;earch&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;msn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;MSN Search&amp;quot;&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+
+&lt;span class="c1"&gt;###Test the emphasize:&lt;/span&gt;
+
+&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;Test&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;
+
+&lt;span class="n"&gt;_Test&lt;/span&gt; &lt;span class="n"&gt;string_&lt;/span&gt;
+
+&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;Test&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;
+
+&lt;span class="n"&gt;__Test&lt;/span&gt; &lt;span class="n"&gt;string__&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+
+&lt;span class="c1"&gt;###&lt;/span&gt;
+&lt;span class="c1"&gt;###Test the inline code block:&lt;/span&gt;
+&lt;span class="n"&gt;Use&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="sb"&gt;`printf()`&lt;/span&gt; &lt;span class="n"&gt;function&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+
+&lt;span class="c1"&gt;###Test the automatic link transfer:&lt;/span&gt;
+
+&lt;span class="n"&gt;Website:&lt;/span&gt; &lt;span class="sr"&gt;&amp;lt;http://marukohome.com&amp;gt;&lt;/span&gt;
+
+&lt;span class="n"&gt;Mail:&lt;/span&gt;&lt;span class="sr"&gt;&amp;lt;abcdef@gmail.com&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;***&lt;/span&gt;
+
+&lt;span class="c1"&gt;###Test Picture:&lt;/span&gt;
+&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Alt&lt;/span&gt; &lt;span class="n"&gt;Test&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="n"&gt;http:&lt;/span&gt;&lt;span class="sr"&gt;//&lt;/span&gt;&lt;span class="n"&gt;th00&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;deviantart&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;net&lt;/span&gt;&lt;span class="sr"&gt;/fs70/&lt;/span&gt;&lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="sr"&gt;/i/&lt;/span&gt;&lt;span class="mi"&gt;2011&lt;/span&gt;&lt;span class="sr"&gt;/178/&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="sr"&gt;/f/oc&lt;/span&gt;&lt;span class="n"&gt;tocat_by_rstovall&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;d3k6a7n&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;jpg&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="o"&gt;***&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="tech"></category></entry></feed>

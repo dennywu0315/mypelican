@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'DennyW'
-SITENAME = u'MarukoHome'
+SITENAME = u'iScirocco'
 SITEURL = ''
 
 TIMEZONE = 'Asia/Shanghai'
@@ -10,7 +10,7 @@ TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = u'en'
 
 THEME = 'bootstrap2'
-FEED_DOMAIN = 'http://www.marukohome.com'
+FEED_DOMAIN = 'http://www.isciro.com'
 
 # Blogroll
 LINKS =  (('Zhihu', 'http://www.zhihu.com/'),

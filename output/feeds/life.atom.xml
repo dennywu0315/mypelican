@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/life.atom.xml" rel="self"></link><id>/</id><updated>2013-03-16T16:43:00Z</updated><entry><title>Hello New World</title><link href="/hello-new-world.html" rel="alternate"></link><updated>2013-03-16T16:43:00Z</updated><author><name>DennyW</name></author><id>tag:,2013-03-16:hello-new-world.html</id><summary type="html">&lt;p&gt;这几天折腾完了基于git-page和pelican的博客架设，学着了不少好玩的新东西。 接下来就要开始往里边添内容了， 半年多前还在TB买了空间和域名， 架了个简单的基于WP的blog， 惭愧的是搞完以后基本就没怎么上了。 这次把域名重新绑到了这个新的blog。 希望能够在这个好玩的平台上坚持下去。&lt;/p&gt;
+&lt;p&gt;下周日就要举行婚礼了。 心情还挺复杂的，既紧张又期待。 马上就要拥有自己的小家庭， 但常说成家立业， 事业上也要加把劲了。&lt;/p&gt;
+&lt;p&gt;希望一切都顺利吧！&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;hello new world&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>
