@@ -1,4 +1,4 @@
-cd ~/dev/myblog
+cd ~/dev/myblog/mypelican
 
 pelican -s pelicanconf.py content -o myblog 
 
