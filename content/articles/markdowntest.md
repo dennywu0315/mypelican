@@ -1,6 +1,7 @@
 Title: Markdown test
 Date: 2013-3-6 16:21
-Tags: tech
+Tags: Markdown
+Category: tech
 Author: DennyW
 
 

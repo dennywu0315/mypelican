@@ -1,6 +1,7 @@
 Title:Pelican + Git Page的Blog架设 
 Date: 2013-4-10 12:40
 Category: tech
+Tags: Git,Python
 Author: DennyW
 
 之前尝试了购买主机空间加上WordPress的组合，弄好了以后基本很少上了。部署完以后全图形化界面的操作总感觉少了点「Geek」的感觉。
