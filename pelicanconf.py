@@ -3,7 +3,7 @@
 
 AUTHOR = u'DennyW'
 SITENAME = u'iScirocco'
-SITEURL = ''
+SITEURL = 'http://www.isciro.com'
 
 TIMEZONE = 'Asia/Shanghai'
 
@@ -26,4 +26,4 @@ SOCIAL = (('Weibo', 'http://weibo.com/u/1652634905'),
           ('GitHub', 'https://github.com/dennywu0315'),)
 
 DEFAULT_PAGINATION = 10
-
+DISQUS_SITENAME = 'isciro'

@@ -12,7 +12,7 @@ Author: DennyW
 搭建的过程和Linux环境下基本相同。
 
 **首先安装`PIP`**
-
+    
     $ curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
     $ python get-pip.py
 

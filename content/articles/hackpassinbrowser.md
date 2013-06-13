@@ -1,4 +1,8 @@
-Title:Hack saved passwords in browsers Date: 2013-5-10 20:35 Category: tech Author: DennyW Tags:html,chrome
+Title:Hack saved passwords in browsers 
+Date: 2013-5-10 20:35 
+Category: tech 
+Author: DennyW 
+Tags:html,chrome
 
 >出于方便的目的，经常会使用浏览器保存一些常用的自动填表的数据。 不过可能过了几个月以后自己也不记得保存的密码是啥， 于是还要费时费力的找回或者重新注册。 今天看到一个简单的方法可以省去一些麻烦。
 
