@@ -1,5 +1,10 @@
+Title:rsync笔记 
+Date: 2013-6-20 12:30 
+Category: tech 
+Author: DennyW 
+Tags:rsync
 
-看书看到rsync相关的内容，于是自己做了个小实验，巩固一下知识点。
+看书看到rsync相关的内容，于是自己做了些小实验，巩固一下知识点。
 
 - 简介
 
